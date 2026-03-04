@@ -53,3 +53,42 @@ footer{
   font-family : "Oswald", sans-serif;
   font-size : 1.4em;
 }
+section
+.men{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Sec1{
+  background-color: #ff2c2c;
+  padding-top: 30px;
+  padding-bottom:50px;
+}
+.affiche{
+  border: #000000 solid 3px;
+  border-radius: 50px;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  display:block;
+}
+#Menuu{
+  text-align: center;
+  background-color: #ff2c2c;
+}
+.commandd{
+  background-image: url("image/cmd.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height:100vh;
+}
+.tex{
+  display : inline-flex;
+  border: #000000 3px solid;
+  
+  padding: 0;
+}
+#cmd{
+  text-align: center;
+}
