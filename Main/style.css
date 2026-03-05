@@ -11,6 +11,8 @@
 }
 body{
   margin : 0;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #title:active{
   color : red;
@@ -52,22 +54,23 @@ footer{
   font-family : "Oswald", sans-serif;
   font-size : 1.4em;
 }
-section
 .men{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .Sec1{
   background-color: #ff2c2c;
   padding-top: 30px;
-  padding-bottom:50px;
+  padding-bottom:100px;
 }
 .affiche{
   border: #000000 solid 3px;
   border-radius: 50px;
-  width: 50%;
-  height: 100%;
+  width: 200px;
+  height: 400px;
   object-fit: cover;
   display:block;
 }
@@ -84,13 +87,27 @@ section
 }
 .tex{
   display : inline-flex;
-  border: #000000 3px solid;
+  border: yellow 3px solid;
   border-radius: 50px;
   position: center;
   
 }
 #cmd{
-  background:red;
+  border: white solid 2px;
+  border-radius: 30px;
+  background: #e63946;
+  position: absolute;
+  bottom : 20%;
+  left: 45%;
+  padding: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Arvo" ,serif;
+  font-style: italic;
+}
+#cmd:hover{
+  background: #d62828;
+  transform: scale(1.3);
 }
 .nosres{
   background: linear-gradient(to right, red , yellow);
@@ -114,4 +131,30 @@ section
   width : 100%;
   color : white;
   border: white 2px solid;
+}
+.burger{
+  background: white;
+  border: black 2px solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+.burger img{
+  height : 270px;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 80px;
+  border: black 2px solid;
+}
+.burger h1{
+  display: inline-block;
+  text-align: center;
+  background:red;
+  height: 30px;
+  position: absolute;
+  left: 45%;
 }
