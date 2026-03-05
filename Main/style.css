@@ -37,7 +37,6 @@ footer{
   background: url("image/footer.png") ;
   background-position: center;
   background-repeat: no-repeat;
-  margin-top: 500px;
   position: bottom;
   border : 2px solid #000000;
   display: flex;
@@ -86,9 +85,33 @@ section
 .tex{
   display : inline-flex;
   border: #000000 3px solid;
+  border-radius: 50px;
+  position: center;
   
-  padding: 0;
 }
 #cmd{
-  text-align: center;
+  background:red;
+}
+.nosres{
+  background: linear-gradient(to right, red , yellow);
+  display: flex;
+  flex-direction: column;
+  
+}
+#prv{
+  text-decoration: underline;
+  color: red;
+}
+.nosres img{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+}
+.nosres p{
+  margin: 0;
+  display:inline-block;
+  width : 100%;
+  color : white;
+  border: white 2px solid;
 }
