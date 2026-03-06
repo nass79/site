@@ -94,7 +94,7 @@ footer{
 }
 #cmd{
   border: white solid 2px;
-  border-radius: 30px;
+  border-radius: 50px;
   background: #e63946;
   position: absolute;
   bottom : 20%;
@@ -134,7 +134,6 @@ footer{
 }
 .burger{
   background: white;
-  border: black 2px solid;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -142,14 +141,14 @@ footer{
   margin: 0;
 }
 .burger img{
-  height : 270px;
+  height : 200px;
   width: 200px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-top: 80px;
-  border: black 2px solid;
 }
+
 .burger h1{
   display: inline-block;
   text-align: center;
@@ -157,4 +156,35 @@ footer{
   height: 30px;
   position: absolute;
   left: 45%;
+}
+.boison div img{
+  height: 200px;
+  padding-top: 30px;
+  width: 200px;
+  display:flex;
+  flex-direction: column;
+}
+.boison h3{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.boison div{
+  border: 1px solid black;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  
+  }
+.set{
+  border: 2px black solid;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  border-radius: 5%;
+  margin-right: 30px;
+}
+.set h3{
+  text-align: center;
+}
+
+.fritte div{
 }
