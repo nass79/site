@@ -133,7 +133,7 @@ footer{
   border: white 2px solid;
 }
 .burger{
-  background: white;
+  background: #111;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -150,12 +150,22 @@ footer{
 }
 
 .burger h1{
+  Color : red;
   display: inline-block;
   text-align: center;
-  background:red;
+  font-size: 30px;
   height: 30px;
   position: absolute;
   left: 45%;
+}
+.burger h2{
+  color: white;
+}
+.boison{
+  background: #111;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
 }
 .boison div img{
   height: 200px;
@@ -185,6 +195,78 @@ footer{
 .set h3{
   text-align: center;
 }
-
+.fritte{
+  background: #111;
+  margin-top: 0;
+}
+.fritte h3{
+  position: relative;
+  left: 20%;
+  display: inline-block;
+  height: 30px;
+  color: white;
+  padding-bottom: 30px;
+  text-decoration: italic;
+  
+}
+.fritte h1{
+   color: red;
+  text-align: center;
+  margin-bottom: 40px;
+  border-bottom: white solid 1px;
+}
+.fritte img{
+  margin-top: 90px;
+}
 .fritte div{
+  border-bottom: white solid 1px;
+  display: flex;
+  justify-content: center;
+}
+#fanta{
+  width: 600px;
+}
+
+
+
+.cm1{
+  margin: 0;
+  padding: 0;
+  background: red;
+  padding: 0;
+  box-sizing: border;
+  
+}
+.f1{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+.ma{
+  padding: 0;
+  border: black solid 1px;
+}
+.tx{
+  border: black 1px solid;
+  width: 470px;
+height: 200px;
+border: rgba(255, 255, 255, 0.2) solid 2px;
+border-radius: 20px;
+  
+}
+.avis{
+  background: black;
+  background-size: cover;
+  margin:0;
+}
+.avis h2{
+  color: white;
+  text-align: center;
+}
+.avis p{
+  color: white;
+  padding : 40px;
 }
