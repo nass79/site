@@ -258,15 +258,27 @@ border-radius: 20px;
   
 }
 .avis{
-  background: black;
-  background-size: cover;
-  margin:0;
+  background-image: url('image/image/avis.png');
 }
 .avis h2{
-  color: white;
+  color: black;
   text-align: center;
 }
 .avis p{
-  color: white;
-  padding : 40px;
+  color: black;
+  padding: 40px;
+}
+.txt{
+  
+  border-radius: 25px;
+  border: rgba(0, 0, 0, 0.3) 1px solid;
+  margin-right: 50%;
+  margin-left: 10%;
+  margin-bottom: 30px;
+  margin-top: 25px;
+  
+}
+.ar{
+  display: inline-block;
+
 }
