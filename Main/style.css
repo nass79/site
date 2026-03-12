@@ -219,29 +219,6 @@ footer{
 #fanta{
   width: 600px;
 }
-
-
-
-.cm1{
-  margin: 0;
-  padding: 0;
-  background: red;
-  padding: 0;
-  box-sizing: border;
-  
-}
-.f1{
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
-}
-.ma{
-  padding: 0;
-  border: black solid 1px;
-}
 .tx{
   border: black 1px solid;
   width: 470px;
@@ -316,13 +293,30 @@ border-radius: 20px;
   background: url(image/about.jpg);
   width: 100%;
 }
-.about{
-  height: 100px;
-  background: url(image/about.jpg) cover no-repeat center;
-  
+.about {
+  background-image: url("image.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 80px;
 }
 .tx h2{
   font-family: "Playfair Display", serif;
   letter-spacing: 10px;
   padding-bottom: 30px;
 }
+.ma{
+  width: 15%;
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  gap: 30px;
+  border: solid black 1px;
+  background: red;
+}
+.f1{
+  background : blue;
+}
+
