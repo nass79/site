@@ -1,5 +1,4 @@
 .navi{
-  border: 3px solid #000000;
   position: top;
   background-attachment: scroll;
   background-image: url("/Main/Image/banner.png");
@@ -31,6 +30,11 @@ a:hover{
 .apr{
   display: flex ;
   gap : 30px;
+}
+.apr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 .but{
   padding-top: 60px;
@@ -80,13 +84,13 @@ footer{
   text-align: center;
   background-color: #ff2c2c;
 }
-.commandd{
+/*.commandd{
   background-image: url("image/cmd.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   min-height:100vh;
-}
+}*/
 .tex{
   display : inline-flex;
   border: yellow 3px solid;
@@ -219,14 +223,6 @@ footer{
 #fanta{
   width: 600px;
 }
-.tx{
-  border: black 1px solid;
-  width: 470px;
-height: 200px;
-border: rgba(255, 255, 255, 0.2) solid 2px;
-border-radius: 20px;
-  
-}
 .avis{
   background-image: url('Image/avis.jpg');
   background-size: cover;
@@ -296,8 +292,8 @@ border-radius: 20px;
 .about {
   background-image: url("image.jpg");
   background-size: cover;
-  background-position: center;
-  padding: 80px;
+  margin: 0;
+  border-radius: 0px;
 }
 .tx h2{
   font-family: "Playfair Display", serif;
@@ -314,9 +310,64 @@ border-radius: 20px;
   margin: auto;
   gap: 30px;
   border: solid black 1px;
-  background: red;
+  background: transparent;
 }
-.f1{
-  background : blue;
+.cm1{
+  background: green;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  min-height: 100vh;       
+}
+.ma{
+  display:flex;
+  border: black 1px solid;
+  padding: 70px;
+  padding-right: 100px;
+  border-radius: 25px;
+  backdrop-filter: blur(30px);
+}
+.ma f1{
+  border-radius: 15px;
+  height: 50px;
+  
+}
+.f1 input{
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  height: 20px;
+  background: transparent;
+  padding: 15px;
+  width: 100%;
+  border-radius: 25px;
+  padding-right: 30px;
+}
+.content a{
+  color: black;
+  display: block;
+  padding: 10px 15px;
+  
+}
+#start div{
+  display: none;
+  padding: 10px 15px;
+  border: black solid 5px;
+  box-shadow: 3px 3px 6px black;
+  background: rgba(255, 255, 255, 0.6);
+  position: absolute;
+}
+#start:hover .content{
+  display: block;
+}
+.tit {
+  padding-top: 50px;
+  position: relative;
 }
 
+.commandd{
+  position: relative;
+  bottom: 0px;
+}
