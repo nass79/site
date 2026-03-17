@@ -70,7 +70,7 @@ footer{
 .Sec1{
   background: red;
   padding-top: 30px;
-  padding-bottom:100px;
+  padding-bottom: 100px;
 }
 .affiche{
   border: #000000 solid 3px;
@@ -84,13 +84,6 @@ footer{
   text-align: center;
   background-color: #ff2c2c;
 }
-/*.commandd{
-  background-image: url("image/cmd.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  min-height:100vh;
-}*/
 .tex{
   display : inline-flex;
   border: yellow 3px solid;
@@ -293,12 +286,18 @@ footer{
   background-image: url("image.jpg");
   background-size: cover;
   margin: 0;
-  border-radius: 0px;
 }
+
 .tx h2{
   font-family: "Playfair Display", serif;
   letter-spacing: 10px;
+  padding-top: 30px;
   padding-bottom: 30px;
+  margin-top: 0;
+}
+.tx p{
+  margin-bottom: 0;
+  padding-bottom: 60px;
 }
 .ma{
   width: 15%;
@@ -370,4 +369,31 @@ footer{
 .commandd{
   position: relative;
   bottom: 0px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+}
+#cmd{
+  bottom: 0;
+  left : 50%;
+}
+.avis{
+  margin-top: 0px;
+}
+.cmd2{
+  display:flex;
+  flex-direction: row;
+}
+.cmd2 img{
+  width: 200px;
+}
+#tt{
+  display: flex;
+  justify-content: center;
+  font-family: "Playfair Display", serif;
+}
+.cmd2{
+  border: black solid 1px;
+  padding: 50px;
+  justify-content: space-between;
 }
