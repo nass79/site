@@ -1,7 +1,7 @@
 .navi{
   position: top;
   background-attachment: scroll;
-  background-image: url("/Main/Image/banner.png");
+  background-image: url("/docs/Image/banner.png");
   display: flex;
   flex-direction: row;
   background-size: cover ;
